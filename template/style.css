@@ -1,0 +1,53 @@
+    body {
+        background-color: gray;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    p {
+        font-family: verdana;
+        font-size: 100px;
+    }
+
+    .list{
+        background-color: white;
+    }
+
+    .background{
+        background-color: gray;
+    }
+
+    li.first{
+        color: darkblue;
+    }
+
+    div.box{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: box;
+        animation-duration: 10s;
+    }
+
+    @keyframes box{
+        from{background-color: red;}
+        to{background-color: black;}
+    }
+
+    .spin{
+        background-color: gray;
+        animation-name: spin;
+        animation-duration: 2s;
+    }
+
+    @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
